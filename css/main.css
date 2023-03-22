@@ -309,8 +309,10 @@ main {
 
 #hero {
   width: 100%;
-  background-color: #c7c6c5ef;
-  display: flex;
+  background-image: url('../img/hero-bkg-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -402,11 +404,18 @@ p span {
 /* ---- Etsy Shop Section ---- */
 
 #etsy-shop {
-  background-color: #c7c6c5ef;
+  background-image: url('../img/for-sale-bkg.png');
+  background-size: cover;
+  background-position: center;
   width: 100%;
+  background-repeat: no-repeat;  
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+#etsy-shop h2 {
+  color: #4d4d4dcc;
 }
 
 #reviews {
@@ -474,15 +483,7 @@ p span {
   }
 
   #connect .content-wrapper {
-    width: 75%;
-  }
-
-  .contact-wrapper {
-    flex-direction: row;
-  }
-
-  .contact-info {
-    flex-direction: column;
+    width: 65%;
   }
 
   .contact-info a {
@@ -499,7 +500,6 @@ p span {
   #message {
     margin: 5px;
   }
-
 
 }
 
