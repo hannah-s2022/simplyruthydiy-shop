@@ -17,15 +17,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0; //For Chrome, Firefox, IE and Opera
 }
 
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
 
   // contact form - clear text upon submission
 const btn = document.querySelector('.btn');
